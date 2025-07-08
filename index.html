@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARSH DARJI | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        <a href="/">HARSH DARJI</a>
+      </div>
+      <div class="right">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i> Github
+        </a>
+        <a href="https://www.linkedin.com/in/harsh-darji-063865245/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i> Linkedin
+        </a>
+        <a href="mailto:darjiharsh2005@gmail.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+      </div>
+      <div class="hamburger" aria-label="Open menu" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <div class="mobile-menu">
+    <div class="nav-links">
+      <a href="/" class="back-button" onclick="goBack()"><i class="fas fa-arrow-left"></i></a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/harsh-darji-063865245/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="mailto:darjiharsh2005@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm HARSH 👋</h2>
+        <p>
+          I am a second-year Computer Science student passionate about technology and innovation.<br>
+          Experienced in web development (Node.js, Express, EJS, MySQL, MERN stack).<br>
+          I love building interactive apps and solving real-world problems.<br>
+          <strong>2nd prize winner</strong> in robo race competition.
+        </p>
+        <div class="links">
+          <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+          <a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a>
+          <a href="#myprofile"><i class="fas fa-pen"></i> My Profile</a>
+          <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+      </div>
+      <div class="headshot">
+        <img src="harsh.jpg" alt="Harsh's headshot">
+      </div>
+    </section>
+
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="cells">
+        <div class="cell"><img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/masterhtml-logo.webp" alt="HTML logo"><span>HTML</span></div>
+        <div class="cell"><img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/mastercss-logo.webp" alt="CSS logo"><span>CSS</span></div>
+        <div class="cell"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjNzNMC32aTaedQd9pA3RBNTZ6XLZtyiiZs2jM8vyF1U6OoFzwI9lkw4d93FFSNClw8yo&usqp=CAU" alt="JavaScript logo"><span>JavaScript</span></div>
+        <div class="cell"><img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/masternode-logo.webp" alt="Node.js logo"><span>Node.js</span></div>
+        <div class="cell"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGT_pnMHJdps9fGjcDaFSqcfFxO2E7BQk4g&s" alt="MySQL logo"><span>MySQL</span></div>
+        <div class="cell"><img src="https://raw.githubusercontent.com/notunderctrl/portfolio-website/refs/heads/masterreact-logo.webp" alt="React logo"><span>React</span></div>
+        <div class="cell"><img src="https://images.seeklogo.com/logo-png/34/1/flutter-logo-png_seeklogo-349577.png" alt="Flutter logo"><span>Flutter</span></div>
+        <div class="cell"><img src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="MongoDB logo"><span>MongoDB</span></div>
+      </div>
+    </section>
+    <!-- My Profile Section -->
+    <section class="myprofile-section" id="myprofile">
+      <div class="profile-img">
+        <img src="harsh.jpg" alt="Harsh Darji profile photo">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm Harsh Darji, a passionate and creative Computer Science student with a strong drive for building innovative web applications. I specialize in full-stack development using modern technologies and love to solve real-world problems with code.<br><br>
+          My journey is fueled by curiosity, continuous learning, and a desire to deliver exceptional user experiences.
+        </p>
+        <ul>
+          <li>Full Stack Web Developer (Node.js, React, Express, MySQL, MongoDB)</li>
+          <li>2nd Prize Winner in Robo Race Competition</li>
+          <li>Open to collaboration and new opportunities</li>
+          <li>Currently learning Flutter creating applications </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="project-cells">
+        <div class="project-cell">
+          <img src="e-commerce.png" alt="E-commerce project">
+          <div class="project-text">
+            <h3>E-commerce site</h3>
+            <p>E-commerce website built with Node.js, Express, MySQL, providing a seamless shopping experience with product management and responsive design.</p>
+            <a href="https://github.com/HARSHDARJI121/e-commerce.git" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+        <div class="project-cell">
+          <img src="Crudoperations.png" alt="CRUD Operations project">
+          <div class="project-text">
+            <h3>CRUD Operations</h3>
+            <p>The client-side CRUD operations allow users to manage their cart by adding, updating, and deleting items for a smooth, customizable shopping experience.</p>
+            <a href="https://github.com/HARSHDARJI121/crud_operations" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+        <div class="project-cell">
+          <img src="Instagram clone.png" alt="Instagram clone project">
+          <div class="project-text">
+            <h3>Instagram Clone</h3>
+            <p>An Instagram clone built with the MERN stack, featuring user profiles, photo uploads, and real-time interactions for a social media experience.</p>
+            <a href="https://github.com/HARSHDARJI121/instagram-clone" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+        <div class="project-cell">
+          <img src="stockTrade.png" alt="StockTrade">
+          <div class="project-text">
+            <h3>Stock Trade Website</h3>
+            <p>The website StockTrade is a platform designed to manage user logins and verify premium plan access.</p>
+            <a href="https://stocktrade.onrender.com/" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <div class="group">
+        <div class="text">
+          To contact me, you can send messages using the form to the right<br>
+          Or contact me on the online platforms above.<br><br>
+          <a id="linkedin" href="https://www.linkedin.com/in/harsh-darji-063865245/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i> <span>Linkedin</span>
+          </a>
+          <br><br>
+          To download my resume, click the button below:
+          <div class="download-button-container">
+            <a href="https://drive.google.com/file/d/1-2Jh_R6V1QvX_a2HmcCuXjD0iJlD1-Rp/view?usp=sharing" id="downloadLink" download="Harsh_Darji_Resume.pdf" aria-label="Download Harsh Darji's Resume">
+              <button class="download-button" onclick="downloadResume()">Download Resume</button>
+            </a>
+            <br><br>
+            <h1>Harsh Darji</h1>
+            <h4>Email: darjiharsh2005@gmail.com</h4>
+            <h4>Phone: +91 7400356323</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
